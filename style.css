@@ -631,8 +631,18 @@ footer {
 }
 /*media*/
 @media (max-width: 426px) {
+   header {
+    width: 100%;
+  }
+  .welcome_menu {
+    width: 400px;
+    margin-right: auto;
+  }
   .welcome_logo img {
-    max-width: 100px;
+    max-width: 50px;
+  }
+  .welcome_logo {
+    width: 10%;
   }
   .nav_a {
     font-size: 12px;
@@ -640,12 +650,12 @@ footer {
     margin-left: 10px;
   }
   .welcome_nav {
-    width: 0%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .welcome_button {
-    width: 60%;
+    width: 100%;
   }
   .login-btn {
     padding: 8px;
@@ -663,32 +673,35 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    justify-content: center;
+    margin-right: 350px;
   }
   .section_1_image {
     border-radius: 10%;
     display: flex;
     align-items: center;
-    margin-left: 20%;
+    margin-right: 75%;
     margin-top: 10px;
+    margin-left: 150%;
+
     width: 100%;
   }
   .section_1_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     width: 100%;
     text-align: center;
+    margin-left: 75%;
   }
   .section_1_title {
-    font-size: 56px;
+    font-size: 36px;
     font-weight: bold;
     color: #fff;
     border-top: 3px solid #db2ba8;
     padding-top: 10px;
     text-align: center;
-    margin-right: 10%;
+    margin-right: auto;
   }
   .section_1_subtitle {
     margin-top: 15px;
